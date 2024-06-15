@@ -1,0 +1,160 @@
+.weatherApp {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.for-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.for-form .for-input {
+  width: 350px;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.for-form .for-btn {
+  background-color: blue;
+  font-size: 1rem;
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid green;
+  margin-left: 1px;
+}
+
+.for-form .for-btn:hover {
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+}
+
+.for-box {
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  color: white;
+}
+
+.for-box .only-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.for-box .cityName {
+  text-align: left;
+  margin: 20px 10px;
+}
+
+.for-box .for-temp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.for-box .for-temp .temp {
+  font-size: 4rem;
+}
+.for-box .for-temp .for-icon {
+  font-size: 4rem;
+}
+
+@media (max-width: 500px) {
+  .for-form .for-input {
+    width: 280px;
+  }
+
+  .for-box .for-temp .temp {
+    font-size: 3rem;
+  }
+  .for-box .for-temp .for-icon {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .for-form .for-input {
+    width: 250px;
+  }
+
+  .for-box .for-temp .temp {
+    font-size: 2.5rem;
+  }
+  .for-box .for-temp .for-icon {
+    font-size: 2.5rem;
+  }
+
+  .for-box .cityName {
+    font-size: 15px;
+  }
+
+  .for-box .only-date {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .for-form .for-input {
+    width: 210px;
+  }
+
+  .for-box .for-temp .temp {
+    font-size: 2.2rem;
+  }
+  .for-box .for-temp .for-icon {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .for-form .for-input {
+    width: 170px;
+    padding: 6px 10px;
+    margin-bottom: 1px;
+  }
+  .for-form .for-btn {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .for-box .for-temp .temp {
+    font-size: 2rem;
+  }
+  .for-box .for-temp .for-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .for-form .for-input {
+    width: 150px;
+    padding: 6px 10px;
+  }
+  .for-form .for-btn {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .for-box .for-temp .temp {
+    font-size: 2rem;
+  }
+  .for-box .for-temp .for-icon {
+    font-size: 2rem;
+  }
+
+  .for-box .cityName {
+    font-size: 12px;
+  }
+}

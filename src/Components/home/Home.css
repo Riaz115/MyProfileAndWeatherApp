@@ -1,0 +1,86 @@
+.wrapper .for-col .for-image {
+  height: 400px !important;
+  width: 400px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+.wrapper .for-col .for-image img {
+  height: 350px !important;
+  width: 350px !important;
+}
+
+.wrapper .for-col .for-btn {
+  background-color: rgb(231, 214, 214);
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 5px 10px 3px #000;
+}
+
+.wrapper .for-col .for-text {
+  font-size: 2rem;
+}
+
+.wrapper .for-col .for-para {
+  font-size: 1rem;
+}
+
+.wrapper .for-col .for-btn:hover {
+  box-shadow: 1px 5px 10px 3px #d3a2df;
+}
+
+@media (max-width: 992px) {
+  .wrapper .for-col .for-image {
+    height: 350px !important;
+    width: 350px !important;
+  }
+  .wrapper .for-col .for-image img {
+    height: 300px !important;
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper .for-col .for-image {
+    height: 300px !important;
+    width: 300px !important;
+  }
+  .wrapper .for-col .for-image img {
+    height: 250px !important;
+    width: 250px !important;
+  }
+
+  .wrapper .for-col .for-text {
+    font-size: 1.5rem;
+  }
+
+  .wrapper .for-col .for-para {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .wrapper .for-col .for-image {
+    height: 200px !important;
+    width: 200px !important;
+  }
+  .wrapper .for-col .for-image img {
+    height: 175px !important;
+    width: 175px !important;
+  }
+
+  .wrapper .for-col .for-text {
+    font-size: 1.2rem;
+  }
+
+  .wrapper .for-col .for-para {
+    font-size: 0.8rem;
+  }
+}

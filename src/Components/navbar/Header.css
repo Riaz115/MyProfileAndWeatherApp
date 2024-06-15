@@ -1,0 +1,55 @@
+.navbar {
+  background-color: rgb(218, 213, 213);
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 20px;
+  color: black;
+}
+
+.navbar .weather {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.navbar .weather .icon {
+  font-size: 1.5rem;
+  color: blue;
+  transition: all 0.4s ease-in-out;
+  animation: forIcon 1s linear infinite;
+}
+
+.navbar .weather:hover,
+.navbar .nav-link:hover,
+.navbar .nav-link:hover:focus {
+  color: red;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+@keyframes forIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar .forLinks {
+    text-align: center;
+  }
+}
