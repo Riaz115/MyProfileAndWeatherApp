@@ -31,7 +31,7 @@ function About() {
                 to="https://react-my-portfolio-full-stack-website.vercel.app/"
                 target="/blank"
               >
-                <button className="btn for-btn text-capitalize">
+                <button className="btn for-btn text-capitalize" target ="/blank">
                   about me{" "}
                 </button>
               </Link>
